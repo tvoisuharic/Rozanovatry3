@@ -1,0 +1,179 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+}
+p {
+	line-height: 1.65em;
+}
+
+
+.header {
+	background-color: rgb(150, 227, 227);	
+	padding-bottom: 50px;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+.header-inner {
+display: flex;
+justify-content: space-between;
+}
+
+.header-inner-block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.header-inner-block p {
+	text-align: center;
+}
+
+.offer {
+	width: 40%;
+	color: white;
+}
+.logo {
+	margin-top: 50px;
+	width: 100px;
+}
+.textWish span {
+	font-size: 85px;
+}
+
+.textWish p {
+	width: 70%;
+}
+
+.phone {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	margin-top: 50px;
+}
+
+
+.needs {
+	background-color: rgb(253, 253, 253);	
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.Zagolovok {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-weight: 700px;
+	margin-bottom: 30px;
+}
+
+.pen {
+	width: 70px;
+}
+
+
+.form {
+	width: 350px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form input {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	background-color: rgb(150, 227, 227);	
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header, .needs, .product-order, .feedback, .footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer {
+    flex: 1;
+}
+
+.telephone {
+    flex: 1;
+}
+
+.header-inner-block {
+    flex: 1;
+    margin: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}

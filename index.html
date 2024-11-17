@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Company</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="offer">
+                    <img src="img/logo.png" alt="Логотип" class="logo">
+                    <div class="animate__animated animate__backInRight">
+                        <h3 class="textWish"> С помощью нас вы сможете создать то, о чем <br><span>желаете!</span></h3>
+                        <p> Наши возможности + опыт позволят Вам достичь огромного успеха. Мы верим в вас! И знаем это на все 100%. Вас не остановить!</p>
+                    </div>
+                    <form action="#" method="POST" enctype="multipart/form-data">
+                        <button type="submit" class="btn">Узнать больше...</button>
+                    </form>
+                </div>
+                <div class="telephone">
+                    <img class="phone" src="img/header-img.png" alt="Телефон">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="needs">
+        <div class="container">
+            <h1 class="Zagolovok"> Что вам необходимо </h1>
+            <br>
+            <div class="header-inner">
+                <div class="header-inner-block">
+                    <img class="pen" src="img/f3.png" alt="Карандаш">
+                    <p>Первый блок </p>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="header-inner-block">
+                    <img class="pen" src="img/f4.png" alt="Шарик">
+                    <p>Второй блок </p>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="header-inner-block">
+                    <img class="pen" src="img/f5.png" alt="Флаг">
+                    <p>Третий блок </p>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-order">
+        <div class="container">
+            <h1 class="Zagolovok">Форма заказа продукта или услуги</h1>
+            <form id="productForm" class="form">
+                <input type="text" name="productName" id="productName" placeholder="Название продукта" required>
+                <input type="number" name="productQuantity" id="productQuantity" placeholder="Количество" required>
+                <input type="email" name="productEmail" id="productEmail" placeholder="Email" required>
+                <textarea name="productMessage" id="productMessage" placeholder="Сообщение" required></textarea>
+                <button type="submit" class="btn">Заказать</button>
+            </form>
+            <div id="productFormResult"></div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <h1 class="Zagolovok">Форма заказа обратного звонка</h1>
+            <form id="callbackForm" class="form" action="#" method="POST" enctype="multipart/form-data">
+                <input type="text" name="Name" id="Name1" placeholder="Имя" required>
+                <input type="tel" name="NumUser" id="Num" placeholder="Телефон" required pattern="[0-9]{10}">
+                <input type="email" name="mail" id="e-mail" placeholder="E-mail" required>
+                <input type="text" name="topic" id="top" placeholder="Какая тема Вас интересует ?" required>
+                <button type="submit" class="btn">Отправить вопрос!</button>
+            </form>
+            <div id="callbackFormResult"></div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="animate__animated animate__jackInTheBox">
+            <p>© Все права на этом сайте защищены.</p>
+        </div>
+    </footer>
+    <script src="js/javasite.js"></script>
+</body>
+
+</html>

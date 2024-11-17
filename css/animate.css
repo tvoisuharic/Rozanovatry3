@@ -1,0 +1,98 @@
+
+.btn {
+	width: 150px;
+	height: 50px;
+	background-color: rgb(248, 248, 36);
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-weight: 700px;
+	box-shadow: 0 7px 10px #c5c94b;
+	position: relative;
+	transition-duration: 2s;
+    transition-property: all;
+    transition-delay: 0,2s;
+}
+
+.btn:hover {
+	background-color: rgb(255, 153, 0);
+	box-shadow: 0 4px 10px #d69909;
+	top: 3px;
+	cursor: pointer;
+}
+
+.phone {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	margin-top: 50px;
+}
+.phone:hover {
+    transform: translate(8px,5px);
+    cursor: pointer;
+    transform: rotate(10deg);
+}
+
+.feedback {
+	background-color: rgb(226, 237, 237);	
+	padding-top: 50px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+ @keyframes example {
+    0% {
+        background-color: rgb(226, 237, 237);
+    }
+    25% {
+        background-color: rgb(153, 146, 221);
+    }
+
+    50% {
+        background-color: rgb(224, 204, 237);
+    }
+    75% {
+        background-color: rgb(223, 157, 194);
+    }
+    100% {
+        background-color: rgb(228, 149, 151);
+    }
+ }
+
+ .pen {
+	width: 70px;
+    position: relative;
+    animation-duration: 10s;
+    animation-name: runlogo;
+    animation-iteration-count: infinite;
+}
+@keyframes runlogo {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        left: 200px;
+        top: 100px;
+    }
+    75% {
+        left: -200px;
+        top: 100px;
+    }
+    90% {
+        left: -200px;
+        top: -100px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+ }
